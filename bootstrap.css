@@ -125,7 +125,7 @@ html {
   }
   
   img {
-    border-style: none;
+    border-style: 45%;
   }
   
   svg:not(:root) {
@@ -671,7 +671,8 @@ html {
     max-width: 100%;
     height: auto;
   }
-  
+
+
   .img-thumbnail {
     padding: 0.25rem;
     background-color: #fff;
