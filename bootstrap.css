@@ -128,12 +128,6 @@ html {
     border-style: none;
   }
   
-  .image2 img {
-    width: 45%;
-    height: auto;
-}
-
-
   svg:not(:root) {
     overflow: hidden;
   }

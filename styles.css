@@ -168,7 +168,10 @@
     font-size: 20px;
 }
 
-
+.image2 img-fluid {
+    width: 45%;
+    height: auto;
+}
 
 
 .Headlinestext-section {
