@@ -168,10 +168,11 @@
     font-size: 20px;
 }
 
-.image-box2 img {
+.image2 img-fluid {
     width: 45%;
     height: auto;
 }
+
 
 .Headlinestext-section {
     text-align: center;
