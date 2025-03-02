@@ -13,7 +13,7 @@
 
 .content {
     width: 100%;
-    height: 60px; /* Adjust based on content */
+    height: 120px; /* Adjust based on content */
     background-color: white;
 }
 
@@ -166,6 +166,11 @@
     padding-left: 100px;
     border-left-width: 20px solid white;
     font-size: 20px;
+}
+
+.image-box2 img {
+    width: 60%;
+    height: auto;
 }
 
 .Headlinestext-section {
