@@ -13,11 +13,44 @@
 
 .content {
     width: 100%;
-    height: 120px; /* Adjust based on content */
+    height: 60px; /* Adjust based on content */
     background-color: white;
 }
 
+/* custom-Nav Bar Specific .css */
 
+/* Custom button appearance */
+
+.logo-margin {
+    margin-left: 60px; /* Space to the left of the image */
+}
+.custom-btn {
+    background-color: #482C24; /* Orange background */
+    color: white;
+    border: none;
+}
+
+/* Hover effect */
+.custom-btn:hover {
+    background-color: #E64A19;
+    color: #482C24;
+}
+
+/* Custom spacing between buttons */
+.custom-spacing {
+    margin-right: 10px;
+}
+
+/* Custom text color (if needed) */
+.custom-text {
+    color: #fff;
+}
+
+.custom-oval-btn {
+    border-radius: 50px; /* Large enough to make an oval shape */
+    padding: 10px 20px;  /* Wider horizontal padding for oval effect */
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------
 .nav-links {
     padding-left: 150px;
     display: flex;
@@ -26,7 +59,7 @@
 }
 
 .nav-item {
-    position: relative; /* Required for dropdown */
+    position: relative; /* Required for dropdown *//*
 }
 
 .nav-links a {
@@ -47,7 +80,7 @@
     color: black;
 }
 
-/* Dropdown styles */
+/* Dropdown styles *//*
 .dropdown {
     position: absolute;
     top: 100%;
@@ -74,12 +107,12 @@
     color: white;
 }
 
-/* Show dropdown on hover */
+/* Show dropdown on hover *//*
 .nav-item:hover .dropdown {
     display: flex;
 }
 
-/* Active menu item style */
+/* Active menu item style *//*
 .active {
     background-color: #E04020;
 }
@@ -88,7 +121,7 @@
     height: 90px;
     width:auto;
 }
-
+*/
 
 /*Headlines section style*/
 
