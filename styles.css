@@ -174,18 +174,8 @@
     font-size: 20px;
     font-weight: bold;
     color: black;
+}
 /*Footer section style*/
-
-}
-.social-icons {
-    margin-top: 20px;
-    align-items: center;
-}
-
-.social-icons img {
-    width: 30px;
-    margin: 0 10px;
-}
 
 .footer_bg {
     background: #222;
@@ -195,133 +185,85 @@
 }
 
 .footer_logo {
-    width: 140px
+    max-width: 140px;
+    height: auto;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 10px;
+    border-radius: 50%;
+    padding: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    background-color: #E04020;
+    transform: scale(1.1);
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    color: #777;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    background-color: #E04020;
+    color: white;
+    transform: scale(1.1);
+}
+
+.width_footer_sub_img {
+    max-width: 100%;
+    height: auto;
 }
 
 .footer_main_title {
     color: #fff;
     font-weight: 800;
-    font-size: 18px
+    font-size: 18px;
 }
 
 .footer_sub_about {
     color: #C9C8C8;
-    font-size: 14px
-}
-
-.display_table_footer {
-    height: 40px;
-    width: 40px;
-    display: table;
-    color: #777;
-    font-size: 18px;
-    border: 1px solid #222 !important;
-    cursor: pointer;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    border-radius: 50%;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -webkit-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
-    margin-right: 10px;
-    color: #777 !important
-}
-
-.display_table_footer:hover,
-.display_table_footer:focus {
-    display: table;
-    color: #777;
-    border: 1px solid #E04020 !important;
-    cursor: pointer;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    border-radius: 50%
-}
-
-.footer_menu {
-    list-style: none;
-    padding: 0
+    font-size: 14px;
 }
 
 .footer_menu li>a {
-    color: #fff !important;
-    padding: 8px 0 !important;
-    display: -webkit-box;
-    -moz-transition: all .5s ease;
-    -o-transition: all .5s ease;
-    -webkit-transition: all .5s ease;
-    -ms-transition: all .5s ease;
-    transition: all .5s ease
+    color: #fff;
+    padding: 8px 0;
+    display: block;
+    transition: all 0.5s ease;
 }
 
 .footer_menu li>a:hover,
 .footer_menu li>a:focus {
-    color: #E04020 !important;
-    padding: 8px 0 !important;
-    display: -webkit-box;
-    margin-left: 5px
+    color: #E04020;
+    margin-left: 5px;
 }
 
 .footer_post {
     color: #fff;
-    display: -webkit-box
+    display: block;
 }
 
 .footer_makes_sub_font {
     font-size: 12px;
-    color: #777
+    color: #777;
 }
 
-.position_footer_relative {
-    position: relative
-}
-
-.footer_position_absolute {
-    position: absolute;
-    top: 60px;
-    left: -5px
-}
-
-.footer_img_post_6 {
-    height: 50px;
-    width: 94px;
-    overflow: hidden;
-    margin: 10px 10px;
-    display: inline-block
-}
-
-.footer_img_post_6>img {
-    width: 94px;
-    height: 50px
-}
-
-.footer_text_box {
-    background: none !important;
-    border-bottom: 2px solid #fff !important;
-    border-top: 0px solid #fff !important;
-    border-top: 0px solid #fff !important;
-    border-top: 0px solid #fff !important;
-    box-shadow: none !important;
-    color: #fff !important
-}
-
-.footer_text_box:focus {
-    border-color: #E04020
-}
-
-.footer_subcribe {
-    background: #E04020 !important;
-    border-bottom: 2px solid #fff !important;
-    border-top: 0px solid #fff !important;
-    border-top: 0px solid #fff !important;
-    border-top: 0px solid #fff !important;
-    box-shadow: none !important;
-    color: #fff !important;
-    display: -webkit-box !important
+.footer_last_part_menu {
+    color: #fff;
+    padding: 0 10px;
+    text-decoration: none;
 }
 
 .footer_right_reserved {
@@ -337,7 +279,6 @@
 .spdp_right {
     text-align: right
 }
-
 
 /*# sourceMappingURL=style_1.css.map */
 
