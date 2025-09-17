@@ -50,138 +50,50 @@
     border-radius: 50px; /* Large enough to make an oval shape */
     padding: 10px 20px;  /* Wider horizontal padding for oval effect */
 }
-/*---------------------------------------------------------------------------------------------------------------------------------------
-.nav-links {
-    padding-left: 150px;
-    display: flex;
-    align-items: center;
-    gap: 200px;
-}
-
-.nav-item {
-    position: relative; /* Required for dropdown *//*
-}
-
-.nav-links a {
-    text-decoration: none;
-    background-color: #482C24;
-    color: white;
-    padding: 10px 15px;
-    border-radius: 20px;
-    font-weight: bold;
-    transition: background-color 0.3s, color 0.3s;
-    display: inline-block;
-    white-space: nowrap; 
-}
 
 
-.nav-links a:hover {
-    background-color: #E04020;
-    color: black;
-}
-
-/* Dropdown styles *//*
-.dropdown {
-    position: absolute;
-    top: 100%;
-    left: 0;
+/* Headlines section style */
+.box1 {
     background-color: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    padding: 10px;
+}
+
+.box1 img {
+    width: 100%;
+    max-width: 70%;
+    height: auto;
+    object-fit: contain;
+    padding: 5px;
+}
+
+.Reg-box2 {
+    background-color: white;
+    display: flex;
     flex-direction: column;
-    min-width: 150px;
-    padding: 5px 0;
-}
-
-.dropdown a {
-    padding: 8px 15px;
-    color: black;
-    background-color: white;
-    border-radius: 0;
-    display: block;
-}
-
-.dropdown a:hover {
-    background-color: #E04020;
-    color: white;
-}
-
-/* Show dropdown on hover *//*
-.nav-item:hover .dropdown {
-    display: flex;
-}
-
-/* Active menu item style *//*
-.active {
-    background-color: #E04020;
-}
-
-.nav-links img{
-    height: 90px;
-    width:auto;
-}
-*/
-
-/*Headlines section style*/
-
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 20px auto;
-    min-height: 10vh;
-}
-
-.Headlines-section {
-    display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding-bottom: 10px;
-}
-
-.image-box {
-    width: 45%;
-}
-
-.image-box img {
-    width: 100%;
-    height: auto;
-}
-
-.Headlinestextdescription-section {
-    width: 100%;
-    padding-left: 100px;
-    border-left-width: 20px solid white;
-    font-size: 20px;
-}
-
-.image2 img {
-    width: 45%;
-    height: auto;
-}
-
-.Headlinestext-section {
     text-align: center;
-    padding: 20px 10px;
-    font-size: 20px;
-    font-weight: bold;
-    color: #DD8848;
+    padding: 20px;
+    min-height: 40vh;
 }
 
-.Reg-Link {
-    text-align: center;
-    padding: 20px 10px;
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
+.Desc-box3 {
+    background-color: white;
+    padding: 20px;
+    min-height: 20vh;
+    text-align: justify;
 }
-/*Footer section style*/
 
+/* Footer section style */
 .footer_bg {
     background: #222;
     color: #fff;
     -webkit-clip-path: polygon(0 17%, 100% 0, 100% 100%, 0% 100%);
-    clip-path: polygon(0 17%, 100% 0, 100% 100%, 0% 100%)
+    clip-path: polygon(0 17%, 100% 0, 100% 100%, 0% 100%);
 }
 
 .footer_logo {
@@ -268,18 +180,51 @@
 
 .footer_right_reserved {
     background: #000 !important;
-    color: #fff !important
+    color: #fff !important;
 }
 
 .footer_last_part_menu {
     color: #fff !important;
-    padding: 0 10px
+    padding: 0 10px;
 }
 
 .spdp_right {
-    text-align: right
+    text-align: right;
 }
 
-/*# sourceMappingURL=style_1.css.map */
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .box1, .Reg-box2, .Desc-box3 {
+        min-height: auto;
+    }
 
+    .footer_bg {
+        clip-path: none;
+        padding: 20px 0;
+    }
 
+    .footer_logo {
+        display: block;
+        margin: 0 auto 20px auto;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .width_footer_sub_img {
+        display: none;
+    }
+
+    .footer_main_title {
+        text-align: center;
+    }
+
+    .footer_menu {
+        text-align: center;
+    }
+
+    .footer_right_reserved {
+        text-align: center;
+    }
+}
