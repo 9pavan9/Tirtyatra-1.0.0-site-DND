@@ -101,11 +101,19 @@
     height: auto;
 }
 
+.footer_bg .social-icons {
+  margin-top: 50px !important;  /* forces real gap above icons */
+  padding-right: 10px;          /* inward space from right edge */
+  display: flex;
+  justify-content: center;    /* keep aligned right */
+}
+
+
 .social-icons img {
     width: 30px;
     margin: 0 10px;
     border-radius: 50%;
-    padding: 5px;
+    padding: 2px;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
@@ -114,24 +122,6 @@
     transform: scale(1.1);
 }
 
-.social-icon {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
-    border-radius: 50%;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    color: #777;
-    text-decoration: none;
-}
-
-.social-icon:hover {
-    background-color: #E04020;
-    color: white;
-    transform: scale(1.1);
-}
 
 .width_footer_sub_img {
     max-width: 100%;
