@@ -147,7 +147,9 @@
     <br>
 
   </strong></p>
-  <p>Registration link to Chardham Yatra : <a href="https://registrationandtouristcare.uk.gov.in/signin.php">Chardham Yatra</a></p>
+  <p>Registration link to Chardham Yatra : <a href="https://registrationandtouristcare.uk.gov.in/signin.php" target="_blank" rel="noopener noreferrer">
+  Chardham Yatra </a>
+  </p>
                 </div>
             </div>
         </div>
@@ -241,6 +243,12 @@
 
     <!-- Main -->
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script><!--link rel="stylesheet" href="dropdown.css" /-->
+    <script>
+  document.querySelectorAll('a[href^="http"]').forEach(link => {
+    link.setAttribute('target', '_blank');
+    link.setAttribute('rel', 'noopener noreferrer');
+  });
+</script>
 
     
 </body>
